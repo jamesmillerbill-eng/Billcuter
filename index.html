@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BillCuter - Save Money on Your Monthly Bills</title>
+  <meta name="description" content="We negotiate lower rates with your current service providers to save you money on your monthly bills. If we don't save you money, our service is free!">
+  <link rel="stylesheet" href="style.css?v=999">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo-container">
+      <!-- Brand Logo Icon -->
+      <svg viewBox="0 0 100 100" class="logo-icon-svg" style="width: 32px; height: 32px;">
+        <rect x="0" y="0" width="100" height="100" rx="22" fill="var(--primary-green)"></rect>
+        <circle cx="36" cy="38" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+        <circle cx="36" cy="62" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+        <line x1="45" y1="43" x2="75" y2="65" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+        <line x1="45" y1="57" x2="75" y2="35" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+        <circle cx="48" cy="50" r="3.5" fill="white"></circle>
+      </svg>
+      <span class="logo-text">billcuter</span>
+    </a>
+    
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#save-money">Save Me Money</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+      </ul>
+      <div class="header-buttons">
+        <a href="#signup" class="btn btn-signup">Signup</a>
+        <a href="#login" class="btn btn-login">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="save-money">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Save Money on Your Monthly Bills</h1>
+      <p class="hero-subtitle">Or Our Service is FREE!</p>
+      <div class="hero-cta-container">
+        <a href="#signup" class="btn btn-cta">Start now &gt;</a>
+        <span class="cta-subtext">Takes 2 minutes</span>
+      </div>
+    </div>
+    <div class="hero-bottom-text">
+      We treat your bills as if they were our own
+    </div>
+  </section>
+
+  <!-- Featured In Section -->
+  <section class="featured-in">
+    <h2 class="featured-title">As featured in</h2>
+    <div class="logos-container">
+      <div class="logo-item mens-health">
+        <span class="logo-text-mh">Men'sHealth</span>
+      </div>
+      <div class="logo-item lifehacker">
+        <span class="logo-text-lh">lifehacker</span>
+      </div>
+      <div class="logo-item forbes">
+        <span class="logo-text-fb">Forbes</span>
+      </div>
+      <div class="logo-item real-simple">
+        <span class="logo-text-rs">REAL SIMPLE</span>
+        <span class="logo-sub-rs">LIFE MADE EASIER</span>
+      </div>
+      <div class="logo-item abc-news">
+        <svg viewBox="0 0 100 100" class="abc-circle">
+          <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="9"></circle>
+          <text x="50" y="60" font-family="'Inter', sans-serif" font-weight="900" font-size="32" text-anchor="middle">abc</text>
+        </svg>
+        <div class="abc-text-group">
+          <span class="abc-title">WORLD NEWS</span>
+          <span class="abc-subtitle">WITH DIANE SAWYER</span>
+        </div>
+      </div>
+      <div class="logo-item fox-business">
+        <div class="fox-border">
+          <span class="fox-title">FOX</span>
+          <span class="fox-subtitle">BUSINESS</span>
+        </div>
+      </div>
+      <div class="logo-item gma">
+        <span class="gma-title">GOOD</span>
+        <span class="gma-title">MORNING</span>
+        <span class="gma-subtitle">AMERICA</span>
+      </div>
+      <div class="logo-item yahoo">
+        <span class="yahoo-title">YAHOO!</span>
+        <span class="yahoo-subtitle">FINANCE</span>
+      </div>
+      <div class="logo-item nyt">
+        <span class="nyt-text">The New York Times</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Monica & Ryan Savings Section -->
+  <section class="monica-ryan" id="about-us">
+    <div class="monica-ryan-container">
+      <h2 class="monica-ryan-title">Meet Monica and Ryan</h2>
+      <p class="monica-ryan-subtitle">We saved them almost $1,500 on their monthly bills</p>
+      
+      <!-- Savings Card -->
+      <div class="savings-card">
+        <!-- Left Column: Video -->
+        <div class="savings-video-container">
+          <div class="video-thumbnail-wrapper">
+            <img src="assets/video-thumbnail.png" alt="Monica and Ryan ABC News broadcast" class="video-thumbnail">
+            <button class="play-button" aria-label="Play video">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="abc-logo-wrapper">
+            <svg viewBox="0 0 100 100" class="abc-logo-circle" style="width: 32px; height: 32px; fill: #2d3748;">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#2d3748" stroke-width="9"></circle>
+              <text x="50" y="60" font-family="'Inter', sans-serif" font-weight="900" font-size="32" text-anchor="middle">abc</text>
+            </svg>
+            <div class="abc-logo-text">
+              <span class="abc-main">WORLD NEWS</span>
+              <span class="abc-sub">WITH DIANE SAWYER</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Savings Breakdown -->
+        <div class="savings-breakdown">
+          <h3 class="breakdown-title">Savings Breakdown</h3>
+          <table class="breakdown-table">
+            <tr>
+              <td>Cable</td>
+              <td class="amount">$337.32</td>
+            </tr>
+            <tr>
+              <td>Internet</td>
+              <td class="amount">$365.40 + $100 Gift Card</td>
+            </tr>
+            <tr>
+              <td>Cell Phone</td>
+              <td class="amount">$510.00</td>
+            </tr>
+            <tr>
+              <td>Satellite Radio</td>
+              <td class="amount">$133.21</td>
+            </tr>
+            <tr>
+              <td>Home Security</td>
+              <td class="amount">$48.00</td>
+            </tr>
+            <tr class="total-row">
+              <td class="savings-label">Savings</td>
+              <td class="total-amount">$1493.93</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Steps Section -->
+  <section class="process-steps" id="how-it-works">
+    <div class="process-container">
+      <h2 class="process-title">BillCuter saves you money</h2>
+      <p class="process-subtitle">by negotiating lower rates with your current providers</p>
+      
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-icon-wrapper">
+            <svg viewBox="0 0 100 100" class="step-icon-svg">
+              <path d="M28,28 L58,28 A3,3 0 0,1 61,31 L61,85 A3,3 0 0,1 58,88 L28,88 A3,3 0 0,1 25,85 L25,31 A3,3 0 0,1 28,28" transform="rotate(-8 43 58)" fill="none" stroke="white" stroke-width="4.5"></path>
+              <rect x="37" y="22" width="38" height="60" rx="4" fill="var(--primary-green)"></rect>
+              <rect x="37" y="22" width="38" height="60" rx="4" fill="none" stroke="white" stroke-width="4.5"></rect>
+              <line x1="45" y1="37" x2="67" y2="37" stroke="white" stroke-width="4.5"></line>
+              <line x1="45" y1="47" x2="67" y2="47" stroke="white" stroke-width="4.5"></line>
+              <line x1="45" y1="57" x2="59" y2="57" stroke="white" stroke-width="4.5"></line>
+              <circle cx="56" cy="69" r="4.5" stroke="white" stroke-width="3" fill="none"></circle>
+            </svg>
+          </div>
+          <h3 class="step-card-title">Send us<br>your bills:</h3>
+          <p class="step-card-desc">All your monthly bills; cell phone, cable, internet, etc... We'll work them all!</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-icon-wrapper">
+            <svg viewBox="0 0 100 100" class="step-icon-svg">
+              <path d="M28 25 C33 25, 36 29, 36 35 C36 47, 25 52, 25 52 C25 52, 47 74, 47 74 C47 74, 52 63, 64 63 C70 63, 74 66, 74 71 C74 80, 64 84, 55 84 C37 84, 17 64, 17 46 C17 37, 21 25, 28 25 Z" transform="rotate(-15 45 54)" fill="none" stroke="white" stroke-width="4.5" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <h3 class="step-card-title">We call<br>your providers</h3>
+          <p class="step-card-desc">We call your service providers and negotiate on your behalf. Saving you time and hassle.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-icon-wrapper">
+            <svg viewBox="0 0 100 100" class="step-icon-svg">
+              <path d="M52 32 C35 32 26 41 26 52 C26 58 30 63 35 67 L33 75 L41 73 C44 75 48 76 52 76 C69 76 78 65 78 52 C78 41 66 32 52 32 Z" fill="none" stroke="white" stroke-width="4.5" stroke-linejoin="round"></path>
+              <rect x="20" y="47" width="6" height="10" rx="2.5" fill="var(--primary-green)"></rect>
+              <rect x="20" y="47" width="6" height="10" rx="2.5" fill="none" stroke="white" stroke-width="4.5"></rect>
+              <path d="M64 34 L68 23 L57 28" fill="none" stroke="white" stroke-width="4.5" stroke-linejoin="round"></path>
+              <circle cx="38" cy="46" r="2.5" fill="white"></circle>
+              <line x1="52" y1="37" x2="52" y2="44" stroke="white" stroke-width="4"></line>
+              <path d="M78 50 C82 50 84 47 84 45" fill="none" stroke="white" stroke-width="4.5"></path>
+              <circle cx="52" cy="18" r="4.5" fill="none" stroke="white" stroke-width="4.5"></circle>
+            </svg>
+          </div>
+          <h3 class="step-card-title">You<br>save money</h3>
+          <p class="step-card-desc">Your negotiated discounts and savings appear on your regular bills! No savings, No charge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="testimonials-container">
+      <h2 class="testimonials-title">See what our customers are saying!</h2>
+      
+      <!-- Carousel Viewport -->
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <!-- Card 1 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">Forever a skeptic.</h3>
+            <p class="quote-body">"Forever a skeptic, I am so glad I checked out your website and just went for it. My CPA sent his clients an FYI email about your services so I felt it couldn't hurt to try. Sent in my cell phone bill and I got a savings of $420 per year, with the same services! CANT BEAT THAT! Thank you you Tony!"</p>
+            <p class="quote-author">Carol | San Jose, CA</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="testimonial-card active">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">I am a HUGE fan!</h3>
+            <p class="quote-body">"BillCuter is a joy to deal with! I've been telling everyone I know to use your services. You don't find many people who still run their businesses with integrity and customer service in mind, and when I do, I spread the word."</p>
+            <p class="quote-author">Shannon | Beaumont, TX</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">They keep saving money.</h3>
+            <p class="quote-body">"When I used BillCuter last time they saved me $20 on my internet and $40 on my cable bill every month. I love it because then I don't have to do anything but send them the bills every year and they keep saving me money."</p>
+            <p class="quote-author">Taylor | Las Vegas, NV</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">No savings, no charge!</h3>
+            <p class="quote-body">"They did all the work calling my electric and gas providers. Since they couldn't lower the rate, it didn't cost me a single penny. Zero risk!"</p>
+            <p class="quote-author">Sarah | Tampa, FL</p>
+          </div>
+          <!-- Card 5 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">Friendly, professional and attentive.</h3>
+            <p class="quote-body">"These guys are great! My Savings Expert was friendly, professional and attentive, and she was able to save me over $800 on my bills for the year."</p>
+            <p class="quote-author">Mary | Colorado Springs, CO</p>
+          </div>
+          <!-- Card 6 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">So easy and fast</h3>
+            <p class="quote-body">"I uploaded my phone and internet bills in two minutes, and they did the rest. Simple, straightforward, and saved me $40 a month!"</p>
+            <p class="quote-author">David | Seattle, WA</p>
+          </div>
+          <!-- Card 7 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">Amazing experience</h3>
+            <p class="quote-body">"They cut my cell phone bill in half without changing my plan or carrier. Absolute magic, I'm a client for life!"</p>
+            <p class="quote-author">Elena | Chicago, IL</p>
+          </div>
+          <!-- Card 8 -->
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <h3 class="quote-title">Very impressive service!</h3>
+            <p class="quote-body">"Very impressive service! I sent them my cable bill and I thought I had the lowest plan possible for $44.99. Imagine my surprise when they called to say they saved me another $15 per month for a year!"</p>
+            <p class="quote-author">Julie | St. Paul, MN</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dot Indicators -->
+      <div class="carousel-dots">
+        <span class="dot"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faqs">
+    <div class="faq-container">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
+      <p class="faq-subtitle">Everything you need to know about how BillCuter works</p>
+      
+      <div class="faq-list">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does BillCuter save me money?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>We call your current service providers (cable, internet, phone, home security, satellite radio, etc.) and negotiate lower rates on your behalf. Our Savings Experts know the best promotions, discounts, and retention offers available.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Will my service change or be interrupted?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>No. We negotiate discounts on your current plans with your existing providers. Your coverage, internet speeds, channel lineup, and features remain exactly the same. There is zero service interruption.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What does this service cost?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Our service is 100% success-based. If we don't save you money, you pay absolutely nothing. If we successfully secure savings, we charge 40% of the first year's savings. For example, if we save you $100 a year, our fee is $40.</p>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does the negotiation process take?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Uploading your bills takes less than 2 minutes. We typically complete negotiations and apply savings to your provider accounts within 3 to 5 business days, after which we will send you a savings summary.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sunset CTA Section -->
+  <section class="sunset-cta">
+    <div class="sunset-cta-overlay"></div>
+    <div class="sunset-cta-content">
+      <h2 class="sunset-cta-title">Join thousands of families already saving.</h2>
+      <a href="#signup" class="btn btn-cta">Start now &gt;</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <!-- Column 1: Brand/About & Socials -->
+      <div class="footer-col brand-col">
+        <a href="#" class="logo-container">
+          <!-- Brand Logo Icon -->
+          <svg viewBox="0 0 100 100" class="logo-icon-svg" style="width: 32px; height: 32px;">
+            <rect x="0" y="0" width="100" height="100" rx="22" fill="var(--primary-green)"></rect>
+            <circle cx="36" cy="38" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+            <circle cx="36" cy="62" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+            <line x1="45" y1="43" x2="75" y2="65" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+            <line x1="45" y1="57" x2="75" y2="35" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+            <circle cx="48" cy="50" r="3.5" fill="white"></circle>
+          </svg>
+          <span class="logo-text">billcuter</span>
+        </a>
+        <p class="footer-desc">BillCuter has been helping people save money on their monthly bills since 2009. Our Savings Experts are specially trained to find you the best rates possible on your monthly bills.</p>
+        <p class="footer-copyright">&copy; 2026 BillCuter, LLC All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn facebook" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn twitter" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn pinterest" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.27 2.68 7.92 6.47 9.38-.09-.8-.17-2.02.03-2.9l1.69-7.14s-.43-.87-.43-2.15c0-2.01 1.17-3.52 2.62-3.52 1.24 0 1.84.93 1.84 2.04 0 1.24-.79 3.1-1.2 4.82-.34 1.45.73 2.63 2.16 2.63 2.59 0 4.59-2.73 4.59-6.68 0-3.49-2.51-5.94-6.09-5.94-4.15 0-6.6 3.12-6.6 6.35 0 1.26.48 2.6 1.09 3.35.12.15.14.28.1.43l-.43 1.76c-.07.28-.23.35-.53.21-1.97-.92-3.2-3.8-3.2-6.12 0-4.99 3.62-9.56 10.45-9.56 5.48 0 9.75 3.91 9.75 9.14 0 5.45-3.44 9.84-8.21 9.84-1.6 0-3.11-.83-3.63-1.81l-.99 3.77c-.36 1.37-1.33 3.09-1.98 4.15 1.5.46 3.09.71 4.74.71 5.52 0 10-4.48 10-10S17.52 2c12 0 12 0 12 0z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: BillCuter Links -->
+      <div class="footer-col">
+        <h3>BILLCUTER</h3>
+        <ul>
+          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="#about-us">About BillCuter</a></li>
+          <li><a href="#how-we-got-started">How We Got Started</a></li>
+          <li><a href="#our-promise">Our Promise</a></li>
+          <li><a href="#reviews">Customer Reviews</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Tools Links -->
+      <div class="footer-col">
+        <h3>TOOLS</h3>
+        <ul>
+          <li><a href="#calculator">Savings Calculator</a></li>
+          <li><a href="#rewards">Rewards</a></li>
+          <li><a href="#coupons">Coupons</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Resources Links -->
+      <div class="footer-col">
+        <h3>RESOURCES</h3>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="refund.html">Refund Policy</a></li>
+          <li><a href="contact.html">Contact Information</a></li>
+          <li><a href="pricing.html">Pricing Information</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5: Connect Link & Call CTA -->
+      <div class="footer-col connect-col">
+        <h3>CONNECT</h3>
+        <ul>
+          <li><a href="mailto:info@billcuter.com">Send us an email</a></li>
+        </ul>
+        <a href="#request-call" class="btn btn-request-call">Request a call</a>
+      </div>
+
+      <!-- Column 6: Action Buttons -->
+      <div class="footer-col actions-col">
+        <a href="#signup" class="btn btn-footer-action btn-signup-footer">Signup</a>
+        <a href="#login" class="btn btn-footer-action btn-login-footer">Login</a>
+        <a href="#partner-login" class="btn btn-footer-action btn-partner-footer">Partner Login</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Registration Modal -->
+  <div class="modal-overlay" id="registerModal" style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close" id="closeRegisterModal" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <!-- Logo -->
+        <div class="logo-container">
+          <svg viewBox="0 0 100 100" class="logo-icon-svg" style="width: 32px; height: 32px;">
+            <rect x="0" y="0" width="100" height="100" rx="22" fill="var(--primary-green)"></rect>
+            <circle cx="36" cy="38" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+            <circle cx="36" cy="62" r="10" stroke="white" stroke-width="7" fill="none"></circle>
+            <line x1="45" y1="43" x2="75" y2="65" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+            <line x1="45" y1="57" x2="75" y2="35" stroke="white" stroke-width="7" stroke-linecap="round"></line>
+            <circle cx="48" cy="50" r="3.5" fill="white"></circle>
+          </svg>
+          <span class="logo-text">billcuter</span>
+        </div>
+        <h2 class="modal-title">Create Your Account</h2>
+        <p class="modal-subtitle">Start saving on your monthly bills today.</p>
+      </div>
+      
+      <form class="modal-form" id="registerForm">
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="regFullName">Full Name</label>
+          <div class="input-wrapper">
+            <svg class="input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <input type="text" id="regFullName" placeholder="Enter your full name" required>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="regEmail">Email Address</label>
+          <div class="input-wrapper">
+            <svg class="input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <input type="email" id="regEmail" placeholder="Enter your email" required>
+          </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+          <label for="regPhone">Phone Number</label>
+          <div class="input-wrapper">
+            <svg class="input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <input type="tel" id="regPhone" placeholder="Enter your phone number" required>
+          </div>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+          <label for="regPassword">Create a Password</label>
+          <div class="input-wrapper">
+            <svg class="input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+            <input type="password" id="regPassword" placeholder="Create a strong password" required>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-modal-submit">Create Account</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Success Popup Modal -->
+  <div class="modal-overlay" id="successModal" style="display: none;">
+    <div class="modal-card success-card">
+      <div class="success-icon-wrapper">
+        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="var(--primary-green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+      </div>
+      <h2 class="modal-title">Registration Successful!</h2>
+      <p class="success-message">We will get back to you within 24 hours.</p>
+      <button class="btn btn-success-ok" id="closeSuccessModal">OK</button>
+    </div>
+  </div>
+
+  <!-- Chat Widget -->
+  <div class="chat-widget" id="chatWidget" title="Chat with us">
+    <svg viewBox="0 0 24 24">
+      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+    </svg>
+  </div>
+
+  <script src="script.js?v=1.0.1"></script>
+</body>
+</html>
